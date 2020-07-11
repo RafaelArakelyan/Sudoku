@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+   <!-- sudoku-ի կայքեր -->
+   <!-- https://sudoku.game/
+   https://www.sudokuonline.io/
+   https://sudoku.com/ -->
+
+   <button class="newBtn">NEW GAME</button>
+   <select name="" id="" class="select">
+      <option class="easy" value="easy">Easy</option>
+      <option class="middle" value="middle">Middle</option>
+      <option class="hard" value="hard">Hard</option>
+   </select>
+   <input type="checkbox">
+
+   <div class="wrap-victor">
+      <div class="victor">Շնորհավորում ենք Դուք հաղթեցիք !!!!</div>
+   </div>
+
+   <div class="wrapper">
+      <div class="cont cont1">
+         <div class="blok blok1">
+            <div class="d 1 s1 sv1"></div>
+            <div class="d 2 s1 sv2"></div>
+            <div class="d 3 s1 sv3"></div>
+            <div class="d 4 s2 sv1"></div>
+            <div class="d 5 s2 sv2"></div>
+            <div class="d 6 s2 sv3"></div>
+            <div class="d 7 s3 sv1"></div>
+            <div class="d 8 s3 sv2"></div>
+            <div class="d 9 s3 sv3"></div>
+         </div>
+         <div class="blok blok2">
+            <div class="d 10 s1 sv4"></div>
+            <div class="d 11 s1 sv5"></div>
+            <div class="d 12 s1 sv6"></div>
+            <div class="d 13 s2 sv4"></div>
+            <div class="d 14 s2 sv5"></div>
+            <div class="d 15 s2 sv6"></div>
+            <div class="d 16 s3 sv4"></div>
+            <div class="d 17 s3 sv5"></div>
+            <div class="d 18 s3 sv6"></div>
+         </div>
+         <div class="blok blok3">
+            <div class="d 19 s1 sv7"></div>
+            <div class="d 20 s1 sv8"></div>
+            <div class="d 21 s1 sv9"></div>
+            <div class="d 22 s2 sv7"></div>
+            <div class="d 23 s2 sv8"></div>
+            <div class="d 24 s2 sv9"></div>
+            <div class="d 25 s3 sv7"></div>
+            <div class="d 26 s3 sv8"></div>
+            <div class="d 27 s3 sv9"></div>
+         </div>
+      </div>
+
+
+      <div class="cont cont1">
+         <div class="blok blok4">
+            <div class="d 28 s4 sv1"></div>
+            <div class="d 29 s4 sv2"></div>
+            <div class="d 30 s4 sv3"></div>
+            <div class="d 31 s5 sv1"></div>
+            <div class="d 32 s5 sv2"></div>
+            <div class="d 33 s5 sv3"></div>
+            <div class="d 34 s6 sv1"></div>
+            <div class="d 35 s6 sv2"></div>
+            <div class="d 36 s6 sv3"></div>
+         </div>
+         <div class="blok blok5">
+            <div class="d 37 s4 sv4"></div>
+            <div class="d 38 s4 sv5"></div>
+            <div class="d 39 s4 sv6"></div>
+            <div class="d 40 s5 sv4"></div>
+            <div class="d 41 s5 sv5"></div>
+            <div class="d 42 s5 sv6"></div>
+            <div class="d 43 s6 sv4"></div>
+            <div class="d 44 s6 sv5"></div>
+            <div class="d 45 s6 sv6"></div>
+         </div>
+         <div class="blok blok6">
+            <div class="d 46 s4 sv7"></div>
+            <div class="d 47 s4 sv8"></div>
+            <div class="d 48 s4 sv9"></div>
+            <div class="d 49 s5 sv7"></div>
+            <div class="d 50 s5 sv8"></div>
+            <div class="d 51 s5 sv9"></div>
+            <div class="d 52 s6 sv7"></div>
+            <div class="d 53 s6 sv8"></div>
+            <div class="d 54 s6 sv9"></div>
+         </div>
+      </div>
+
+
+      <div class="cont cont1">
+         <div class="blok blok7">
+            <div class="d 55 s7 sv1"></div>
+            <div class="d 56 s7 sv2"></div>
+            <div class="d 57 s7 sv3"></div>
+            <div class="d 58 s8 sv1"></div>
+            <div class="d 59 s8 sv2"></div>
+            <div class="d 60 s8 sv3"></div>
+            <div class="d 61 s9 sv1"></div>
+            <div class="d 62 s9 sv2"></div>
+            <div class="d 63 s9 sv3"></div>
+         </div>
+         <div class="blok blok8">
+            <div class="d 64 s7 sv4"></div>
+            <div class="d 65 s7 sv5"></div>
+            <div class="d 66 s7 sv6"></div>
+            <div class="d 67 s8 sv4"></div>
+            <div class="d 68 s8 sv5"></div>
+            <div class="d 69 s8 sv6"></div>
+            <div class="d 70 s9 sv4"></div>
+            <div class="d 71 s9 sv5"></div>
+            <div class="d 72 s9 sv6"></div>
+         </div>
+         <div class="blok blok9">
+            <div class="d 73 s7 sv7"></div>
+            <div class="d 74 s7 sv8"></div>
+            <div class="d 75 s7 sv9"></div>
+            <div class="d 76 s8 sv7"></div>
+            <div class="d 77 s8 sv8"></div>
+            <div class="d 78 s8 sv9"></div>
+            <div class="d 79 s9 sv7"></div>
+            <div class="d 80 s9 sv8"></div>
+            <div class="d 81 s9 sv9"></div>
+         </div>
+      </div>
+   </div>
+
+   <div class="wrap-ansver">
+      <div class="ansver ansverSpan">
+         <span class="sp1"></span>
+         <span class="sp2"></span>
+      </div>
+      <div class="ansver">1</div>
+      <div class="ansver">2</div>
+      <div class="ansver">3</div>
+      <div class="ansver">4</div>
+      <div class="ansver">5</div>
+      <div class="ansver">6</div>
+      <div class="ansver">7</div>
+      <div class="ansver">8</div>
+      <div class="ansver">9</div>
+   </div>
+
+   <script src="js/script.js"></script>
+</body>
+
+</html>
